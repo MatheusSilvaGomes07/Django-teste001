@@ -1,7 +1,7 @@
-from django import views
+from . import views
 from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    # path('home/', views.conta, name='home')
+    path('', views.conta, name='home')
 ]
